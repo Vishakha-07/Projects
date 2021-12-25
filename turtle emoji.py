@@ -6,7 +6,7 @@ window=turtle.Screen()
 pen.fillcolor('yellow')
 #start the filling color
 pen.begin_fill()
-#dreawing the square of side s
+#drawing the circle of radius r
 pen.up()
 pen.goto(0,-120)
 pen.circle(200)
