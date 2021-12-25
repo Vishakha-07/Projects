@@ -10,10 +10,11 @@ print("You have got 5 chances! For every correct guess you will have 1 cow and f
 #initial score
 bull=0
 cow=0
-#Generating a random 2 digit number
+
 
 while count<5:
     count+=1
+    #Generating a random 2 digit number
     x=random.randint(10,99)
     a = int(input("Guess a two digit number: "))
     if a==x:
